@@ -1,7 +1,9 @@
+// src/components/Packages.jsx
 import React from 'react';
-import '../css/Packages.css'; // Assuming you have a CSS file for styling
+import '../css/Packages.css'; // Custom styling
 import { getTestIcon } from '../utils/iconHelper';
 import { Container, Row, Col, Card, ListGroup } from 'react-bootstrap';
+
 const packages = [
   {
     title: '₹699/- Basic Body Check Up',
@@ -38,34 +40,33 @@ const packages = [
 ];
 
 const Packages = () => {
-    return (
-      <section id="packages" className="py-5 bg-light">
-        <Container>
-          <h2 className="text-center mb-4 fw-bold text-primary">Our Health Packages</h2>
-          <Row className="g-4">
-            {packages.map((pkg, index) => (
-              <Col md={6} lg={4} key={index}>
-                <Card className="h-100 shadow-sm border-0 rounded-4">
-                  <Card.Body>
-                    <Card.Title className="text-success fw-bold">{pkg.title}</Card.Title>
-                    <hr />
-                    <ListGroup variant="flush">
-                      {pkg.tests.map((test, i) => (
-                        <ListGroup.Item key={i} className="d-flex align-items-center border-0 ps-0">
-                          <i className={`bi ${getTestIcon(test)} me-2 text-primary`}></i>
-                          <span>{test}</span>
-                        </ListGroup.Item>
-                      ))}
-                    </ListGroup>
-                  </Card.Body>
-                </Card>
-              </Col>
-            ))}
-          </Row>
-        </Container>
-      </section>
-    );
-  };
-  
+  return (
+    <section id="packages" className="py-5 bg-light">
+      <Container>
+        <h2 className="text-center mb-4 fw-bold text-primary">Our Health Packages</h2>
+        <Row className="g-4">
+          {packages.map((pkg, index) => (
+            <Col md={6} lg={4} key={index}>
+              <Card className="h-100 shadow-sm border-0 rounded-4 package-card">
+                <Card.Body>
+                  <Card.Title className="text-success fw-bold">{pkg.title}</Card.Title>
+                  <hr />
+                  <ListGroup variant="flush">
+                    {pkg.tests.map((test, i) => (
+                      <ListGroup.Item key={i} className="d-flex align-items-center border-0 ps-0">
+                        <i className={`bi ${getTestIcon(test) || 'bi-check-circle'} me-2 text-primary`}></i>
+                        <span>{test}</span>
+                      </ListGroup.Item>
+                    ))}
+                  </ListGroup>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
+        </Row>
+      </Container>
+    </section>
+  );
+};
 
 export default Packages;

@@ -1,0 +1,24 @@
+.home-visit-section {
+    background-image: url("/homevisit.png"); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    color: white;
+  }
+  .home-visit-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* overlay */
+    z-index: 1;
+  }
+  .home-visit-section .container {
+    position: relative;
+    z-index: 2;
+  }
+  
