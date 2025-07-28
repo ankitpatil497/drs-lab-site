@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/drs-lab-site/static/css/main.18c94b97.css",
-    "main.js": "/drs-lab-site/static/js/main.38c65a38.js",
-    "static/js/453.2f0e9a8e.chunk.js": "/drs-lab-site/static/js/453.2f0e9a8e.chunk.js",
-    "static/media/bootstrap-icons.woff?": "/drs-lab-site/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
-    "static/media/bootstrap-icons.woff2?": "/drs-lab-site/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
-    "index.html": "/drs-lab-site/index.html",
-    "main.18c94b97.css.map": "/drs-lab-site/static/css/main.18c94b97.css.map",
-    "main.38c65a38.js.map": "/drs-lab-site/static/js/main.38c65a38.js.map",
-    "453.2f0e9a8e.chunk.js.map": "/drs-lab-site/static/js/453.2f0e9a8e.chunk.js.map"
+    "main.css": "/static/css/main.6b14c87b.css",
+    "main.js": "/static/js/main.aff7c314.js",
+    "static/js/453.2f0e9a8e.chunk.js": "/static/js/453.2f0e9a8e.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "index.html": "/index.html",
+    "main.6b14c87b.css.map": "/static/css/main.6b14c87b.css.map",
+    "main.aff7c314.js.map": "/static/js/main.aff7c314.js.map",
+    "453.2f0e9a8e.chunk.js.map": "/static/js/453.2f0e9a8e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18c94b97.css",
-    "static/js/main.38c65a38.js"
+    "static/css/main.6b14c87b.css",
+    "static/js/main.aff7c314.js"
   ]
 }
