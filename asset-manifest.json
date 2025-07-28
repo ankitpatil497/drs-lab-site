@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/drs-lab-site/static/css/main.18c94b97.css",
-    "main.js": "/drs-lab-site/static/js/main.c7e1a3c2.js",
+    "main.js": "/drs-lab-site/static/js/main.0f2746de.js",
     "static/js/453.2f0e9a8e.chunk.js": "/drs-lab-site/static/js/453.2f0e9a8e.chunk.js",
     "static/media/bootstrap-icons.woff?": "/drs-lab-site/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/bootstrap-icons.woff2?": "/drs-lab-site/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
     "index.html": "/drs-lab-site/index.html",
     "main.18c94b97.css.map": "/drs-lab-site/static/css/main.18c94b97.css.map",
-    "main.c7e1a3c2.js.map": "/drs-lab-site/static/js/main.c7e1a3c2.js.map",
+    "main.0f2746de.js.map": "/drs-lab-site/static/js/main.0f2746de.js.map",
     "453.2f0e9a8e.chunk.js.map": "/drs-lab-site/static/js/453.2f0e9a8e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.18c94b97.css",
-    "static/js/main.c7e1a3c2.js"
+    "static/js/main.0f2746de.js"
   ]
 }
